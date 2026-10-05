@@ -8,6 +8,10 @@ import BookPageForEdit from './pages/books/BookPageForEdit'
 import AdminLogin from './pages/LoginSignupPages/AdminLogin'
 import CreateDiscount from './pages/Discount/CreateDiscount'
 import DiscountList from './pages/Discount/DiscountList'
+<<<<<<< HEAD
+=======
+
+>>>>>>> 401cdeb24e58d5896f889cae2b111db7ef644914
 import DiscountForEdit from './pages/Discount/DiscountForEdit'
 import UserList from './pages/users/UserList'
 function App() {
@@ -38,6 +42,13 @@ function App() {
             <Route path='/edit/discount/:id' element={<DiscountForEdit></DiscountForEdit>}></Route>
             <Route path='/users' element={<UserList></UserList>}></Route>
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 401cdeb24e58d5896f889cae2b111db7ef644914
           </Routes>
         </main>
       </div>
